@@ -19,3 +19,18 @@ This is a micro frontend module built using angular cli
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣿⣿⠿⠋⠉⠛⠋⠉⠉⠁⠀⠀⠀⠀<br>
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠁
 </span>
+
+
+## Deployment
+
+### Local
+
+`$ ng serve`
+
+### Docker
+
+`$ ng build`
+
+`$ docker build -t amogus .`
+
+`$ docker run -itd --rm -p 3030:80 amogus`
