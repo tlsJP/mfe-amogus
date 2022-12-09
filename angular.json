@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "random-app": {
+    "mfe-amogus": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
-            "outputPath": "dist/random-app",
+            "outputPath": "dist/mfe-amogus",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -59,11 +59,11 @@
           "builder": "ngx-build-plus:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "random-app:build:production",
+              "browserTarget": "mfe-amogus:build:production",
               "extraWebpackConfig": "webpack.prod.config.js"
             },
             "development": {
-              "browserTarget": "random-app:build:development"
+              "browserTarget": "mfe-amogus:build:development"
             }
           },
           "defaultConfiguration": "development",
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "ngx-build-plus:extract-i18n",
           "options": {
-            "browserTarget": "random-app:build",
+            "browserTarget": "mfe-amogus:build",
             "extraWebpackConfig": "webpack.config.js"
           }
         },

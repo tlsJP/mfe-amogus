@@ -3,8 +3,8 @@ call npm i
 
 call ng build
 
-docker built -t amogus .
+docker build -t mfe-amogus .
 
-docker stop amogus
+docker stop mfe-amogus
 
-docker run -itd --rm -p 3030:80 --name amogus amogus
+docker run -itd --rm -p 3030:80 --name mfe-amogus mfe-amogus
