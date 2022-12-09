@@ -20,7 +20,6 @@ This is a micro frontend module built using angular cli
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠁
 </span>
 
-
 ## Deployment
 
 ### Local
@@ -34,3 +33,7 @@ This is a micro frontend module built using angular cli
 `$ docker build -t amogus .`
 
 `$ docker run -itd --rm -p 3030:80 amogus`
+
+or
+
+`> .\deploy_docker.bat`
