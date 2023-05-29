@@ -5,8 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { AmogusComponent } from './amogus/amogus.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AmogusComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
