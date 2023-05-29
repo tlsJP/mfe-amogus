@@ -10,7 +10,7 @@ sharedMappings.register(path.join(__dirname, "tsconfig.json"), [
 
 module.exports = {
   output: {
-    uniqueName: "randomApp",
+    uniqueName: "mfe-amogus",
     publicPath: "auto",
   },
   optimization: {
@@ -29,7 +29,7 @@ module.exports = {
       library: { type: "module" },
 
       // For remotes (please adjust)
-      name: "randomApp",
+      name: "mfe-amogus",
       filename: "remoteEntry.js",
       exposes: {
         "./Module": "./src/app/app.module.ts",

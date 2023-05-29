@@ -1,4 +1,4 @@
-# RandomApp (Amogus)
+# MFE Amogus
 
 This is a micro frontend module built using angular cli
 <span style='color:#A072F0'><br>
